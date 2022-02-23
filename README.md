@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Inspirated By
 
-Created Design By ArrayId
+Created Design By ArrayId : Muhamad Nauval Azhar
 
 ![](assets/images/thumbnail.png)
 
