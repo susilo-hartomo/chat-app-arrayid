@@ -1,5 +1,15 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Inspirated By
+
+Created Design By ArrayId
+
+![](assets/images/thumbnail.png)
+
+resource :
+link : <a href="https://www.figma.com/community/file/1061306005803309728" target="_blank" rel="noopener noreferrer">Figma</a>
+link : <a href="https://www.youtube.com/watch?v=RwUlnAGyuI8&t=187s" target="_blank" rel="noopener noreferrer">Youtube</a>
+
 ## Getting Started
 
 First, run the development server:
@@ -9,8 +19,6 @@ npm run dev
 # or
 yarn dev
 ```
-
-![](assets/images/thumbnail.png)
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
