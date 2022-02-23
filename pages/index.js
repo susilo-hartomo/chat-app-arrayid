@@ -5,6 +5,7 @@ import { ArrowRightCircle, Download, Facebook, Instagram, Twitter, User } from '
 // images 
 import logo from '../assets/images/chat_logo.svg'
 import partnerLogo from '../assets/images/partner_logo.png'
+const partnerLogo = import('../assets/images/partner_logo.png')
 import imgMastheat from '../assets/images/img_masthead.png'
 import card1 from '../assets/images/card_1.png'
 import card2 from '../assets/images/card_2.png'
