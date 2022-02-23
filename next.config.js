@@ -7,4 +7,7 @@ module.exports = {
     ignoreDuringBuilds: true,
   },
   distDir: 'build',
+  images: {
+    disableStaticImages: true,
+  },
 }
