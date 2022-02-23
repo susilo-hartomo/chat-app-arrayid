@@ -25,6 +25,7 @@ import DataShow from '../components/dataShow'
 import Card from '../components/card'
 import Collase from '../components/collase'
 import { useLayoutEffect, useState } from 'react'
+import Head from 'next/head'
 
 export default function Home() {
 
@@ -41,6 +42,9 @@ export default function Home() {
 
   return (
     <>
+      <Head>
+        <title>Chatting Apps</title>
+      </Head>
       <header className={' mt-4 sticky top-0 z-50' + (scrollPosition > 20 ? " bg-[#F4F7FF] drop-shadow-primary-shadow" : "")}>
         <div className="container mx-auto w-full h-24  items-center flex justify-between">
           <div id="logo">
