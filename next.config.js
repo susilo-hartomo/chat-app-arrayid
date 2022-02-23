@@ -1,13 +1,7 @@
 module.exports = {
   reactStrictMode: true,
-  experimental: {
-    urlImports: ['https://example.com/modules/'],
-  },
+  experimental: {},
   eslint: {
     ignoreDuringBuilds: true,
-  },
-  distDir: 'build',
-  images: {
-    disableStaticImages: true,
   },
 }
