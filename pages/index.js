@@ -24,26 +24,28 @@ import Button from '../components/button'
 import DataShow from '../components/dataShow'
 import Card from '../components/card'
 import Collase from '../components/collase'
-import { useLayoutEffect, useState } from 'react'
+import { useEffect, useLayoutEffect, useState } from 'react'
 import Head from 'next/head'
 
 export default function Home() {
 
   const [scrollPosition, setPosition] = useState(0);
-  console.log('scrollPosition: ', scrollPosition);
-  useLayoutEffect(() => {
+
+  useEffect(() => {
     function updatePosition() {
       setPosition(window.pageYOffset);
     }
     window.addEventListener('scroll', updatePosition);
     updatePosition();
     return () => window.removeEventListener('scroll', updatePosition);
-  }, []);
+  }, [scrollPosition]);
 
   return (
     <>
       <Head>
-        <title>Chatting Apps</title>
+        <title>Chan,N Rechat</title>
+        <meta name="description" content="Chan,N Rechat" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <header className={' mt-4 sticky top-0 z-50' + (scrollPosition > 20 ? " bg-[#F4F7FF] drop-shadow-primary-shadow" : "")}>
         <div className="container mx-auto w-full h-24  items-center flex justify-between">

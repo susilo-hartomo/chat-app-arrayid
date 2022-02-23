@@ -1,7 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+html,
 body {
+    scroll-behavior: smooth;
     background: linear-gradient(180deg, #eef2ff 0%, rgba(238, 242, 255, 0) 100%);
     background-repeat: no-repeat;
 }

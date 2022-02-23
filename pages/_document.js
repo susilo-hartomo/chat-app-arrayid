@@ -4,11 +4,9 @@ export default function Document() {
   return (
     <Html>
       <Head>
-        <meta name="description" content="Chan,N Rechat" />
-        <link rel="icon" href="/favicon.ico" />
-        <style>
-          @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
-        </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet" />
       </Head>
       <body >
         <Main />
